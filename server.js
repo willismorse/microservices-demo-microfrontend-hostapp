@@ -5,4 +5,4 @@ app.use(express.static('public'))
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
-app.listen(3030, () => console.log('Example app listening on port 3030!'))
+app.listen(8080, () => console.log('microfrontend-hostapp listening on port 8080!'))
