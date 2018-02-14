@@ -2,22 +2,16 @@ apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   name: {{ template "chart.fullname" . }}
-  labels:
-    app: {{ template "chart.name" . }}
-    chart: {{ template "chart.chart" . }}
-    release: {{ .Release.Name }}
-    heritage: {{ .Release.Service }}
+  namespace: {{ .Values.namespace }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ template "chart.name" . }}
-      release: {{ .Release.Name }}
+      name: {{ template "chart.name" . }}
   template:
     metadata:
       labels:
-        app: {{ template "chart.name" . }}
-        release: {{ .Release.Name }}
+        name: {{ template "chart.name" . }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
