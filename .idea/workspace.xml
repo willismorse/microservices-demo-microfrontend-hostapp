@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38d643cc-9510-40df-b930-fa6d3086e092" name="Default" comment="" />
+    <list default="true" id="38d643cc-9510-40df-b930-fa6d3086e092" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/chart/.helmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/Chart.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/templates/NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/templates/_helpers.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/templates/deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/templates/ingress.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/templates/service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/values.yaml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +180,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-136" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
