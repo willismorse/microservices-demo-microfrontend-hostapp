@@ -21,7 +21,7 @@ replicaCount: 1
 image:
   repository: willismorse/microservices-demo-microfrontend-hostapp
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 service:
   type: NodePort
