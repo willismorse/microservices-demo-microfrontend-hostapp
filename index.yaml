@@ -9,5 +9,5 @@ entries:
     name: hostapp
     urls:
     - hostapp-0.1.0.tgz
-    version: 0.1.0
+    version: latest
 generated: 2018-02-20T21:20:34.306441-05:00
