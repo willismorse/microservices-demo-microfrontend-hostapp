@@ -1,3 +1,13 @@
 apiVersion: v1
-entries: {}
-generated: 2018-02-20T21:02:38.980626-05:00
+entries:
+  hostapp:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-02-20T21:20:34.307165-05:00
+    description: A Helm chart for Kubernetes
+    digest: 23d4f8754720e6e0df2d8f3ebf5a62d44dac9c9cc4f335895e5629f9c174d0ea
+    name: hostapp
+    urls:
+    - hostapp-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-02-20T21:20:34.306441-05:00
