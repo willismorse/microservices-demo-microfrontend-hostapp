@@ -1,22 +1,13 @@
 apiVersion: v1
 entries:
-  hostapp:
+  microservices-demo-microfrontend-hostapp-chart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-02-21T08:57:08.409612-05:00
+    created: 2018-03-10T09:09:36.077664-05:00
     description: A Helm chart for Kubernetes
-    digest: 1d244f2966b48d8d24cf459a1f301c82ba11967f7979b8c4121b8c701ae6864f
-    name: hostapp
+    digest: 18f000019cad488c9e539c4b392e31c6f22af724adabf3cf57a296e110654680
+    name: microservices-demo-microfrontend-hostapp-chart
     urls:
-    - hostapp-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v1
-    appVersion: latest
-    created: 2018-02-21T08:57:08.409241-05:00
-    description: A Helm chart for Kubernetes
-    digest: 94fc6ed5a6a22f61baafc1868620bfa9adcbf529c281a27a4d63d71444ad696f
-    name: hostapp
-    urls:
-    - hostapp-0.1.0.tgz
-    version: 0.1.0
-generated: 2018-02-21T08:57:08.408397-05:00
+    - microservices-demo-microfrontend-hostapp-chart-0.1.2.tgz
+    version: 0.1.2
+generated: 2018-03-10T09:09:36.075508-05:00
